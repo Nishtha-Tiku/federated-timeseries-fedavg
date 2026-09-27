@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Downloaded dataset
+data/raw/*.zip
+data/raw/UCI HAR Dataset.names
+data/raw/UCI HAR Dataset/
