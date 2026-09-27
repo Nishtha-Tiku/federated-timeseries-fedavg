@@ -33,11 +33,11 @@ The trajectories are not strictly monotonic: both settings show a temporary accu
 
 ### Test accuracy by communication round
 
-![FedAvg test accuracy comparison](results/plots/test_accuracy_comparison.png)
+![FedAvg test accuracy comparison](results/plots/test_accuracy_comparison.svg)
 
 ### Test loss by communication round
 
-![FedAvg test loss comparison](results/plots/test_loss_comparison.png)
+![FedAvg test loss comparison](results/plots/test_loss_comparison.svg)
 
 ### Round-level results
 
