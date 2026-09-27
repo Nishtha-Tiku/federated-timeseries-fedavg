@@ -55,5 +55,3 @@ The trajectories are not strictly monotonic: both settings show a temporary accu
 - The centralized baseline should be compared using a training budget aligned with the federated setting before drawing convergence or performance conclusions.
 - Additional rounds and local-epoch ablations can be used to study convergence more thoroughly.
 - The subject-based partition should be analyzed using client-level class distributions and performance variation to quantify the degree of heterogeneity.
-
-Do not claim experimental results on a CV until the experiments have been run and the methodology/results are finalized.
