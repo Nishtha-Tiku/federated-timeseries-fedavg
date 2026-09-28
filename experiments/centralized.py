@@ -6,7 +6,8 @@ from src.utils import set_seed
 import torch
 
 def main():
-    cfg = Config(); set_seed(cfg.seed)
+    cfg = Config()
+    set_seed(cfg.seed)
     (x_train, y_train, _), (x_test, y_test, _) = load_data()
     model = LSTMClassifier(input_size=x_train.shape[-1], hidden_size=cfg.hidden_size, num_layers=cfg.num_layers).to(cfg.device)
     optimizer = torch.optim.Adam(model.parameters(), lr=cfg.learning_rate)
